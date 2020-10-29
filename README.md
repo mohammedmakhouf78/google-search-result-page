@@ -1,0 +1,1 @@
+This is just the look of the google search page for practice
