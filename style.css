@@ -1,0 +1,85 @@
+/* start of header left */
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.google-logo{
+    /* float: left; */
+    width: 150px;
+    /* margin-right: 40px; */
+}
+
+.search-bar{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    /* width: 30%; */
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    flex: 1;
+    
+}
+.mic,.keyboard,.text-box,.search-icon{
+    margin: 0 5px;
+}
+.text-box{
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    flex:100%;
+    font-size: 16px;
+}
+.fa-microphone-alt{
+    color: #4285f4;
+}
+.fa-search{
+    color: gray;
+}
+/* end of header right */
+
+
+
+
+/* the header right */
+
+.right ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 0px;
+}
+.right ul li{
+    margin-left: 20px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right ul .gmail:hover{
+    border-bottom: 1px solid black;
+}
+.right ul .images:hover{
+    border-bottom: 1px solid black;
+}
+.google-apps:hover{
+    cursor: pointer;
+}
+.right .sign-btn{
+    background:-webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 6px 20px;
+    border: 1px solid #4285f4;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* line-height: 28px; */
+    border-radius: 2px;
+    font-family: arial,sans-serif;
+}
+/* end of header right */
