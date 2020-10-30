@@ -2,6 +2,7 @@
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .google-logo{
@@ -13,10 +14,11 @@
 .search-bar{
     display: flex;
     justify-content:space-around;
+    justify-self: start;
     /* align-items: center; */
     /* width: 30%; */
     max-width: 600px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border: 1px solid #dfe1e5;
     padding: 10px;
     /* margin-top: 20px; */
@@ -48,11 +50,17 @@
 
 /* the header right */
 
+.right{
+    /* justify-self:flex-end; */
+    /* background-color: black; */
+
+}
 .right ul{
     display: flex;
     float: right;
     list-style: none;
     padding: 0px;
+   
 }
 .right ul li{
     margin-left: 20px;
@@ -83,3 +91,66 @@
     font-family: arial,sans-serif;
 }
 /* end of header right */
+
+/* page body */
+.page-body{
+    /* background-color: black; */
+    /* margin-left: 9em;
+    margin-top: 1.5em; */
+}
+/* end of page body */
+
+/* start of nav */
+
+.nav{
+    margin-left: 9em;
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    max-width: 800px;
+}
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    width: 80%;
+    margin-right: 30px;
+}
+.left-nav a{
+    text-decoration: none;
+    color: #5f6368;
+    
+}
+
+.setteings-tools{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    width: 20%;
+    margin-left: 40px;
+    /* max-width: 200px; */
+}
+.setteings-tools a{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.all,.maps,.videos,.news,.images,.more{
+    color: #5f6368;
+}
+
+@media (max-width:800px){
+    .setteings-tools{
+        display: none;
+    }
+    .left-nav{
+        width: 100%;
+    }
+}
+.line{
+    margin-top: 10px;
+    border-bottom: 1px solid #5f6368;
+}
+
+/* end of nav */
