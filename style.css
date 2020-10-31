@@ -290,3 +290,75 @@ a{
 }
 
 /* end of videos */
+
+
+/* start of image */
+    /* head */
+    .images-con{
+        margin-left: 9em;
+        margin-top: 2em;
+        max-width: 700px;
+        border-bottom: 1px solid #dfe1e5;
+    }
+    .images-header{
+        display: flex;
+        font-size: 1.4em;
+        margin-bottom: 20px;
+    }
+    .fa-image{
+        color: #5f6368;
+        margin-right: 0.5em;
+    }
+    /* end of head */
+    /* search keys */
+    .image-search-keys{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .image-search-keys div{
+        border: 1px solid #dfe1e5;
+        border-radius: 20px;
+        padding:9px;
+    }
+    /* end of search keys */
+    /* images-images */
+    .images-images{
+        display: flex;
+        /* background-color: blue; */
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .images-images img{
+        /* width: 110px; */
+        max-width: 130px;
+    }
+    .images-icon-con{
+        display: flex;
+    }
+    .images-right-icon{
+        align-self: center;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        padding: 12px;
+        /* margin-left: 10px; */
+        position: relative;
+        right: 19px;
+        /* left: 0px; */
+        background-color: white;
+    }
+    .image-icon-con-left{
+        display: flex;
+    }
+    .image-icon-con-left .fa-chevron-left{
+        align-self: center;
+        border-radius: 50%;
+        padding: 12px;
+        background-color: white;
+        position: relative;
+        left: 18px;
+    }
+    /* end of images-images */
+/* end of image */
