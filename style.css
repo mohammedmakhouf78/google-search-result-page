@@ -1,3 +1,6 @@
+.fas {
+  color: #5f6368;
+}
 p {
   max-width: 600px;
 }
@@ -401,3 +404,45 @@ a {
   font-style: italic;
 }
 /* the end of people ask */
+
+/* start of prople also search for  */
+.people-search-con {
+  margin-left: 9em;
+  margin-top: 3em;
+  max-width: 700px;
+}
+.people-search-title {
+  font-size: 1.3em;
+}
+.people-search-body {
+  border: 1px solid #dfe1e5;
+  border-radius: 8px;
+  padding: 1em;
+  margin-top: 1em;
+}
+.people-search-header {
+  display: flex;
+  justify-content: space-between;
+}
+.people-serch-banners {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.people-serch-banners > div {
+  border: 1px solid #dfe1e5;
+}
+@media (max-width: 850px) {
+  .people-serch-banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+}
+
+.people-search-body .video-footer {
+  margin-bottom: 1em;
+}
+/* end of prople also search for  */
