@@ -446,3 +446,30 @@ a {
   margin-bottom: 1em;
 }
 /* end of prople also search for  */
+
+/* start of realted searches */
+.related-search-con {
+  margin-left: 9em;
+  margin-top: 3em;
+  max-width: 700px;
+}
+.related-search-title {
+  font-size: 1.4em;
+}
+.searches-con {
+  margin-top: 1.2em;
+  display: flex;
+}
+.searches-con a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+}
+.searches2 {
+  margin-left: 40px;
+}
+.searches-con span {
+  font-weight: lighter;
+}
+/* end of realted searches */
