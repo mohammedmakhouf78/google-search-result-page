@@ -514,3 +514,24 @@ a {
 }
 
 /* end of gooooooooogle */
+
+/* start of footer */
+.footer-con {
+  padding: 0.7em 0em 0.7em 9em;
+  margin-top: 2em;
+  background-color: #dfe1e5;
+}
+.foot1 {
+  display: flex;
+  margin-bottom: 1em;
+}
+.foot1 .egypt {
+  margin-right: 25px;
+}
+.footer2 {
+  display: flex;
+}
+.footer2 div {
+  margin-right: 25px;
+}
+/* end of footer */
