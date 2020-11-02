@@ -473,3 +473,44 @@ a {
   font-weight: lighter;
 }
 /* end of realted searches */
+
+/* start of gooooooooogle */
+.google-con {
+  margin-left: 9em;
+  margin-top: 3em;
+  text-align: center;
+  max-width: 700px;
+}
+.google-word .g,
+.google-word .g-small {
+  color: rgba(64, 165, 212, 0.89);
+}
+.google-word {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.google-word div {
+  color: orange;
+}
+.google-word .l {
+  color: green;
+}
+.google-word .e {
+  color: red;
+}
+.google-word .fas {
+  color: rgba(64, 165, 212, 0.89);
+  font-size: 0.5em !important;
+  margin-left: 10px;
+  align-self: center;
+}
+.nav-num,
+.nav-next-word {
+  font-size: 0.5em !important;
+  color: rgba(64, 165, 212, 0.89) !important;
+  font-weight: initial;
+}
+
+/* end of gooooooooogle */
